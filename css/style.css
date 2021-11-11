@@ -30,16 +30,23 @@ body{
 	background-color:var(--warna-navbar);
 }
 
+.tombol{
+	background-color: var(--warna-body);
+	border-radius: 20px;
+	color: var(--warna-font);
+}
+
 
 .jumbotron{
 	overflow-x: hidden;
-	height: 670px;
+	height: 663px;
 	padding-top: 7rem;
 	background-color:var(--warna-dasar);
 }
 
-.jumbotron button{
+.jumbotron .btn{
 	background-color: var(--warna-navbar);
+	border-radius: 20px;
 }
 
 .jumbotron img{
@@ -112,10 +119,27 @@ body{
 	z-index: 2;
 }
 
-#resume{
-	background-color:var(--warna-dasar);
+#projects{
+	background-color: var(--warna-dasar);
+	height: 663px;
 }
 
+#projects .card{
+	background-color: var(--warna-body);
+	border-radius: 10px;
+}
+
+#projects .card h5{
+	color: var(--warna-navbar);
+}
+
+#projects .card .btn{
+	background-color: var(--warna-navbar);
+}
+
+#projects .card img{
+	border-radius: 10px;
+}
 
 #resume .skill-section .progress-bar{
 	background-color: var(--warna-navbar);
@@ -128,6 +152,7 @@ section{
 #contact{
 	padding-bottom: 20px;
 	color: var(--text-color);
+	background-color: var(--warna-dasar);
 }
 
 #contact button{
