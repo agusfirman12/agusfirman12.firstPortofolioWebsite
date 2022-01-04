@@ -119,7 +119,6 @@ body {
 
 #projects {
   background-color: var(--warna-dasar);
-  max-height: 100%;
 }
 
 #projects .card {
