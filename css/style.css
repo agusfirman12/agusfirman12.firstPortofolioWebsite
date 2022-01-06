@@ -107,7 +107,7 @@ body {
 }
 
 #about img {
-  overflow: hidden;
+  overflow-x: hidden;
   transition: 0.5s;
   cursor: zoom-in;
 }
